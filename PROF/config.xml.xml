@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.Genessis.Manual" version=" 1.0"
+xmlns="http://www.w3.org/ns/widgets" xmlns:gap="htpp://phonegap.com/ns/1.0">
+     <name>MANUAL DO RECRUTA</name>
+	 <description>
+	         Esse app tem como objetivo ajudar aos novos militares temporarios e de carreira.Onde iram encontrar fotos,canções,vídeos,História e tudo sobre a semana zero.
+			 com fundamento de mostrar aos  novos combatentes oque eles iram enfrentar no periodo Basico.
+	 </description>
+     <auto email="genessis.furtado@gmail.com" href="htpp:phonegap.com">
+         MANUAL DO RECRUTA
+     </author>
+     <content src="index.html" />
+     
+     <preference name="DisallowOverscroll" value="true" />
+     <preference name="android-minSdkVersion" value="14" />
+      
+     <plugin name="cordova-plugin-whitlist" source="npm" spec="~1.2.1" />
+     
+     <platform name="android">
+         <icon density="ldpi" src="www/res/icon/android/mdpi.png" />
+         <icon density="mdpi" src="www/res/icon/android/mdpi.png" />
+		 <icon density="hdpi" src="www/res/icon/android/hdpi.png" />
+		 <icon density="xhdpi" src="www/res/icon/android/xhdpi.png" />
+		 <icon density="xxhdpi" src="www/res/icon/android/xxhdpi.png" />
+		 <icon density="xxxhdpi" src="www/res/icon/android/xxxhdpi.png" />
+     </platform>
+	 
+	 <access origin="*"  />
+	 
+	 <allow-navigation href="*"  />
+	 <allow-intente href="http://*/*""  />
+	 <allow-intente href="htpps://*/*"" />
+	 <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+</widget>
